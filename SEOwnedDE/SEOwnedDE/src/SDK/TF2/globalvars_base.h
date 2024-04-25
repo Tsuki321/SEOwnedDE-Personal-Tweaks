@@ -23,4 +23,4 @@ public:
 	int nTimestampRandomizeWindow;
 };
 
-MAKE_INTERFACE_SIGNATURE(CGlobalVarsBase, GlobalVars, "engine.dll", "A1 ? ? ? ? 8B 11 68", 8, 1);
+MAKE_INTERFACE_SIGNATURE(CGlobalVarsBase, GlobalVars, "engine.dll", "48 8B 05 ?? ?? ?? ?? 48 8D 56 18 + 3", 8, 1); //Relative Address.
