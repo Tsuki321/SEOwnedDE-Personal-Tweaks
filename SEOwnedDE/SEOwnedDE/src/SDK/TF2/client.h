@@ -36,4 +36,4 @@ public:
 	}
 };
 
-MAKE_INTERFACE_SIGNATURE(CClientState, ClientState, "engine.dll", "68 ? ? ? ? E8 ? ? ? ? 83 C4 08 5F 5E 5B 5D C3", 1, 1);
+MAKE_INTERFACE_SIGNATURE(CClientState, ClientState, "engine.dll", "48 8D 0D ? ? ? ? E8 ? ? ? ? F3 0F 5E 05", 1, 1);
