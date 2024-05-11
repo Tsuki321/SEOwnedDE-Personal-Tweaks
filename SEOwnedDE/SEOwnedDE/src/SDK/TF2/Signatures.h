@@ -117,3 +117,4 @@ MAKE_SIGNATURE(C_TFWeapon_ShouldDraw, "client.dll", "55 8B EC 83 EC 08 56 8B F1 
 MAKE_SIGNATURE(C_TFPlayer_ThirdPersonSwitch, "client.dll", "E8 ? ? ? ? 8A 87 ? ? ? ? 88 87 ? ? ? ?", 0);
 MAKE_SIGNATURE(CBaseHudChat_ChatPrintf, "client.dll", "55 8B EC B8 ? ? ? ? E8 ? ? ? ? 53 56 57 8D 45 18", 0);
 MAKE_SIGNATURE(CBaseHudChatLine_InsertAndColorizeText, "client.dll", "55 8B EC 83 EC 40 53 8B D9 56 57 89 5D D4", 0);
+MAKE_SIGNATURE(CTFPlayerInventory_GetMaxItemCount, "client.dll", "8B 49 68 56", 0x0);
