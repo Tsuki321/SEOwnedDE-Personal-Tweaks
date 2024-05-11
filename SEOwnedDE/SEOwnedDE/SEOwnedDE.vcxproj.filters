@@ -49,6 +49,7 @@
     <ClCompile Include="src\App\Hooks\CStudioRender_DrawModelStaticProp.cpp" />
     <ClCompile Include="src\App\Hooks\CTFGameMovement_PlayerMove.cpp" />
     <ClCompile Include="src\App\Hooks\CTFGameMovement_ProcessMovement.cpp" />
+    <ClCompile Include="src\App\Hooks\CTFPlayerInventory_GetMaxItemCount.cpp" />
     <ClCompile Include="src\App\Hooks\CTFPlayer_FireBullet.cpp" />
     <ClCompile Include="src\App\Hooks\CTFPlayer_MaybeDrawRailgunBeam.cpp" />
     <ClCompile Include="src\App\Hooks\CTFPlayerShared_InCond.cpp" />
